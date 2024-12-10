@@ -1,0 +1,19 @@
+/* @import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css'; */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark.min.css';
+
+.markdown-ui {
+  margin: 0 auto;
+  width: 50vw;
+  text-align: left;
+}
+
+.markdown-body code {
+  background-color: var(--header-bg);
+  color: var(--main-text-color);
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  font-family:monospace;
+  font-size: 15px;
+  font-weight: 100;
+}

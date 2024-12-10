@@ -1,0 +1,132 @@
+:root {
+  --dark-bg-color: rgb(12, 12, 12);
+  --header-bg: rgb(32, 32, 32);
+  --light-bg-color: rgb(6, 147, 198);
+  --main-text-color: rgb(230, 230, 230);
+  --sub-text-color: rgb(120, 200, 240);
+  
+  background: var(--dark-bg-color);
+  color: var(--main-text-color);
+  font-family:monospace;
+  line-height: 1.75;
+  font-size: 1.4em;
+  font-weight: 300;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  place-items: top;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+  color: var(--light-bg-color);
+}
+
+a { 
+  color: var(--sub-text-color);
+}
+
+img {
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 32px;
+}
+
+input {
+  background-color: var(--header-bg);
+  color: var(--text-color);
+  text-align: center;
+  font-size:max(16px, 1.75vh);
+  border-radius: 24px;
+  border: none;
+  width: 16vw;
+  padding: 1vw 0vw;
+  margin: 0 18px;
+}
+
+button {
+  border-radius: 12px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+select {
+  color: var(--light-bg-color);
+  background-color: var(--header-bg);
+  text-align: center;
+  font-size:16px;
+  font-weight: 600;
+  border-radius: 24px;
+  border: none;
+  width: 180px;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+/* Custom Elements */
+.centered-block {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-logo {
+  padding-top: 28px;
+  padding-right: 8px;
+  height: 33px;
+  width: 33px;
+}
+
+.app-header {
+  background-color: var(--header-bg);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 24px;
+  padding-bottom: 12px;
+ }
+
+.app-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.app-content {
+  overflow-y: auto;
+  height: 90vh;
+  width: 100vw;
+}
+
+.app-content::-webkit-scrollbar, .sidebar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: var(--light-bg-color);
+}
+.app-content::-webkit-scrollbar-thumb, .sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--light-bg-color);
+  border-radius: 10px;
+}
+.app-content::-webkit-scrollbar-track, .sidebar::-webkit-scrollbar-track {
+  background-color: var(--dark-bg-color)
+}
+
