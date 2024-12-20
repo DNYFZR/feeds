@@ -13,16 +13,16 @@ const Sidebar: React.FC<SidebarProps> = ({ title, keys }) => {
   const [filteredKeys, setFilteredKeys] = useState<string[]>(keys);
   
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
-  const [activeKey, setActiveKey] = useState<string>("base");
+  const [activeKey, setActiveKey] = useState<string>(keys[0]);
   const navigate = useNavigate();
 
   const handleKeyChange = (newActiveKey: string) => {
-    const newKey = newActiveKey.replace(" ", "-");
+    const newKey = newActiveKey.replaceAll(" ", "-");
     try {
       setActiveKey(newActiveKey);
 
-      console.log("Navigating to:", `/feeds/${newKey === "base" ? "" : newKey}`);
-      navigate(`/feeds/${newKey === "base" ? "" : newKey}`, { replace: true });
+      // console.log("Navigating to:", `/feeds/${newKey === "base" ? "" : newKey}`);
+      navigate(`/feeds/${newKey === "home" ? "" : newKey}`, { replace: true });
 
     } catch (error) {
       console.error("Error navigating to new route:", error);
