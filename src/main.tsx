@@ -1,6 +1,6 @@
 // Feeds App
 import "./main.css"
-import logo from "/icons/feeds-128.png"
+import logo from "/icons/code-128.png"
 
 import React from "react"
 import { createRoot } from "react-dom/client"
@@ -8,11 +8,12 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router"
 
 import Sidebar from "./components/Sidebar"
 import Render from "./components/Markdown"
-import Home from "./pages/home"
-
 
 function App() {
-  const pageList = ["base", "hello world", "rust simulator", "rust geospatial"];
+  const pageList = [
+    "home", 
+    "fallout pip boy", 
+  ];
 
   const Layout = () => {
     return (
@@ -22,7 +23,7 @@ function App() {
             <img className="app-logo" src={logo} />
           </a>
 
-          <h2 className="app-title">{`feeds`}</h2>
+          <h2 className="app-title">feeds</h2>
         </div>
         <Sidebar title="menu" keys={pageList} />
         
@@ -34,15 +35,26 @@ function App() {
     );
   };
 
+  const Home = () => {
+  
+    return(
+      <div className="centered-block">
+        <h3>Hello World...</h3>
+  
+        <div className="centered-block">
+          <img src="/feeds/images/spaceman.jpg"/>
+        </div>
+      </div>
+    );
+  };
+
   const AppRoutes = createBrowserRouter([
     {
       path: '/',
       element: <Layout />,
       children: [
-        {path: '/feeds/', element: <Home />},
-        {path: '/feeds/hello-world', element: <Render path="/feeds/markdown/posts/2024-12-10-hello-world.md" />},
-        {path: '/feeds/rust-simulator', element: <Render path="https://raw.githubusercontent.com/DNYFZR/rs-sim/refs/heads/main/README.md" />},
-        {path: '/feeds/rust-geospatial', element: <Render path="https://raw.githubusercontent.com/DNYFZR/rs-geospatial/refs/heads/main/README.md" />},
+        {path: '/feeds', element: <Home />},
+        {path: '/feeds/fallout-pip-boy', element: <Render path="/feeds/posts/pipOS.md" />},
 
       ],
     },
