@@ -1,3 +1,0 @@
-<h1 align="center"> Hello World </h1>
-
-Just setting up my website...

@@ -1,0 +1,418 @@
+{
+  "General" : {
+    "Hackertab" : {
+      "description" : "Developer news dashboard",
+      "link" : "https://now.hackertab.dev/",
+      "image" : "https://skillicons.dev/icons?i=emotion",
+      "tags" : ["Software Engineering", "Data Engineering", "Machine Learning", "AI"]
+    },
+    "OneFetch" : {
+      "description" : "Offline command line tool for displaying project information and code statistics for a local Git repo in the terminal",
+      "link" : "https://github.com/o2sh/onefetch",
+      "image" : "https://github.com/o2sh/onefetch/blob/main/assets/screenshot-1.png?raw=true",
+      "tags" : ["Software Engineering", "Version Control"]
+    },
+    "Carbon Code" : {
+      "description" : "Generate high quality images of code in any language for documentation etc.",
+      "link" : "https://carbon.now.sh/",
+      "image" : "https://avatars.githubusercontent.com/u/52179379?s=200&v=4",
+      "tags" : ["Software Engineering"]
+    },
+    "Azure Mentor" : {
+      "description" : "Detailed blogs covering all things Azure cloud",
+      "link" : "https://azurementor.wordpress.com/",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Azure", "Software Engineering", "DevOps", "Data Engineering"]
+    },
+    "Spotify Engineering" : {
+      "description" : "Blog from the engineering team, covering all aspects of build & operation of a global app service", 
+      "link" : "https://engineering.atspotify.com/",
+      "image" : "https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green-300x300.png",
+      "tags" : ["Software Engineering", "DevOps", "Audio"]
+    },
+    "Netflix Engineering" : {
+      "description" : "Tech @ Netflix - data / microservices / software engineering...",
+      "link" : "https://netflixtechblog.com/",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/2048px-Netflix_icon.svg.png",
+      "tags" : ["Software Engineering", "DevOps"]
+    },
+    "Databricks Engineering" : {
+      "description" :"Blog from the engineering team, covering all aspects of data & AI service",
+      "link" : "https://databricks.com/blog/category/engineering",
+      "image" : "https://avatars.githubusercontent.com/u/4998052?s=200&v=4",
+      "tags" : ["Data Engineering", "Machine Learning", "AI"]
+    },
+    "Berkley ML Blog" : {
+      "description" : "Research & info from the team at Berkley University",
+      "link" : "https://mlberkeley.substack.com/",
+      "image" : "https://avatars.githubusercontent.com/u/17039942?s=200&v=4",
+      "tags" : ["Machine Learning", "AI"]
+    },
+    "Learning Spark" : {
+      "description" : "Introduction to programming with the Apache Spark framework",
+      "link" : "https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf", 
+      "image" : "https://m.media-amazon.com/images/I/81qxKDZyIgL._AC_UF894,1000_QL80_.jpg",
+      "tags" : ["Data Engineering", "Machine Learning", "Python", "SQL"]
+    },
+    "Rust Atomics & Locks" : {
+      "description" : "Low level concurrent programming in the Rust ecosystem",
+      "link" : "https://marabos.nl/atomics/",
+      "image" : "https://m.media-amazon.com/images/I/81WpA78jtqL._AC_UF894,1000_QL80_.jpg",
+      "tags" : ["Software Engineering"]
+    },
+    "Python for Data Science" : {
+      "description" : "Intro to data science with Python",
+      "link" : "https://jakevdp.github.io/PythonDataScienceHandbook/", 
+      "image" : "https://jakevdp.github.io/PythonDataScienceHandbook/figures/PDSH-cover.png",
+      "tags" : ["Programming", "Python", "Data Engineering"]
+    }
+  },
+  
+  "Software Engineering" : {
+    "Developer Roadmaps" : {
+      "description" : "Roadmaps for developers",
+      "link" : "https://roadmap.sh/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["Programming", "Software Engineering", "Data Engineering" ]
+    },
+    "Patterns.dev" : {
+      "description" : "Software architecture design pattern study guide", 
+      "link" : "https://www.patterns.dev/", 
+      "image" : "https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_2800/v1635050505/patterns.dev/Wallpaper_3.jpg",
+      "tags" : ["Programming", "Software Engineering"]
+    },
+    "The Algorithms" : {
+      "description" : "Implementation of data structures & algorithms in most languages",
+      "link" : "https://github.com/TheAlgorithms",
+      "image" : "https://avatars.githubusercontent.com/u/20487725?s=200&v=4",
+      "tags" : ["Programming", "Software Engineering"]
+    },
+    "The Missing Semester" : {
+      "description" : "MIT course covering elements missed in traditional CS education",
+      "link" : "https://missing.csail.mit.edu/",
+      "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+      "tags" : ["Software Engineering", "Programming", "Documentation", "Version Control"]
+    },
+    "Big O Notation" : {
+      "description" : "Article explaining the concept & impact of big O in development",
+      "link" : "https://web.mit.edu/16.070/www/lecture/big_o.pdf",
+      "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+      "tags" : ["Programming", "Software Engineering"]
+    },
+    "Intro to Rust" : {
+      "description" : "Install, setup & overview of the Rust programming language",
+      "link" : "https://blog.logrocket.com/getting-up-to-speed-with-rust/",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Comprehensive Rust" : {
+      "description" : "Google engineering intro to Rust",
+      "link" : "https://google.github.io/comprehensive-rust/index.html",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Rust Config System" : {
+      "description" : "Guide on the configuration (cfg) system in Rust", 
+      "link" : "https://blog.parker-codes.dev/posts/rusts-cfg-attribute",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Rust File I/O" : {
+      "description" : "Introduction to file I/O in the Rust ecosystem",
+      "link" : "https://dev.to/oliverjumpertz/how-to-write-files-in-rust-m06",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Awesome Rust" : {
+      "description" : "GitHub repo with links to a very wide range of applications, tools & libraries in the Rust ecosystem",
+      "link" : "https://github.com/rust-unofficial/awesome-rust",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering", "GitHub"]
+    },
+    "Teach-RS" : {
+      "description" : "",
+      "link" : "https://github.com/tweedegolf/teach-rs",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Learning Go" : {
+      "description" : "Intro to Go programming & syntax",
+      "link" : "https://github.com/TannerGabriel/learning-go",
+      "image" : "https://skillicons.dev/icons?i=go",
+      "tags" : ["Programming", "Go", "Software Engineering"]
+    },
+    "Learn Go with Tests" : {
+      "description" : "Beginner friendly intro to Go, including testing & projects",
+      "link" : "https://quii.gitbook.io/learn-go-with-tests",
+      "image" : "https://skillicons.dev/icons?i=go",
+      "tags" : ["Programming", "Go", "Software Engineering"]
+    },
+    "OOP Design Patterns (Python)" : {
+      "description" : "Guide through implementation of common design patterns in Python",
+      "link" : "https://python-patterns.guide/",
+      "image" : "https://skillicons.dev/icons?i=py",
+      "tags" : ["Programming", "Software Engineering", "Python"]
+    },
+    "The Python Tutorials" : {
+      "description" : "OOP, RegEx, adv concepts GUI programming",
+      "link" : "https://www.pythontutorial.net/",
+      "image" : "https://skillicons.dev/icons?i=py",
+      "tags" : ["Programming", "Python", "Software Engineering"]
+    }
+  },
+
+  "Sample Projects" : {
+    "Azure ML Ops Project" : {
+      "description" : "Example of E2E build & deployment for machine learning, using Azure DevOps", 
+      "link" : "https://dev.azure.com/bekeen/_git/MLOps-Example-Project", 
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["DevOps", "Machine Learning", "Azure"]
+    },
+    "FastAPI + Machine Learning" : {
+      "description" : "Devleopment guide for building APIs for ML models using FastAPI",
+      "link" : "https://testdriven.io/blog/fastapi-streamlit/",
+      "image" : "https://skillicons.dev/icons?i=fastapi",
+      "tags" : ["DevOps", "Software Engineering", "API", "Machine Learning"] 
+    },
+    "Made with ML" : {
+      "description" : "Guides you from conception to production",
+      "link" : "https://madewithml.com/#mlops",
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Machine Learning", "DevOps"]
+    },
+    "FastAPI + React" : {
+      "description" : "Extensive tutorial, covering full stack development using FastAPI and React",
+      "link" : "https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-1-hello-world/",
+      "image" : "https://skillicons.dev/icons?i=fastapi",
+      "tags" : ["Software Engineering", "Python", "Typescript", "React"]
+    },
+    "Data Engineering" : {
+      "description" : "Building a Data Engineering Project in 20 Minutes",
+      "link" : "https://www.ssp.sh/blog/data-engineering-project-in-twenty-minutes/",
+      "image" : "https://www.ssp.sh/blog/data-engineering-project-in-twenty-minutes/images/open-source-logos.png",
+      "tags" : ["Data Engineering", "Programming"]
+    },
+    "Intro to .Net Web Development" : {
+      "description" : "Intro course from MS, covering going from setup to deployment on Azure",
+      "link" : "https://github.com/dotnet/intro-to-dotnet-web-dev",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Software Engineering", "Dotnet"]
+    },
+    "Azure Container Apps" : {
+      "description" : "Guide on building & deploying a container application in Azure cloud",
+      "link" : "https://thomasthornton.cloud/2022/02/11/deploy-to-azure-container-app-from-azure-container-registry-using-a-ci-cd-azure-devops-pipeline-and-azure-cli%EF%BF%BC/",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Azure", "DevOps", "Software Engineering"]
+    },
+    "Azure SQL Server" : {
+      "description" : "Extensive YouTube playlist from Microsoft, covering all aspects of setup & management of Azure SQL Server DBs",
+      "link" : "https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Azure", "Data Engineering", "SQL"]
+    },
+    "Svelte Deployment to Azure" : {
+      "description" : "Guide on deploying Svelte apps to Azure App Services",
+      "link" : "https://www.reddit.com/r/sveltejs/comments/z7r13t/wrote_a_fivepart_blog_about_deploying_a_sveltekit/",
+      "image" : "https://skillicons.dev/icons?i=svelte",
+      "tags" : ["DevOps", "Azure"]
+    }
+  },
+  
+  "APIs" : {
+    "Intro to APIs Part 1" : {
+      "description" : "Introductory guide to REST APIs",
+      "link" : "https://www.skiplevel.co/blog/guide-to-api-part-1",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["API", "Guide", "Backend"]
+    },
+    "Intro to APIs Part 2" : {
+      "description" : "Introductory guide to REST APIs",
+      "link" : "https://www.skiplevel.co/blog/part-2-rest-api-components-how-to-read-them",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["API", "Guide", "Backend"]
+    }
+  },
+  
+  "DevOps" : {
+    "Docker Labs" : {
+      "description" : "Training, guides & cheatsheets for all levels of Docker user",
+      "link" : "https://dockerlabs.collabnix.com/", 
+      "image" : "https://skillicons.dev/icons?i=docker",
+      "tags" : ["DevOps", "Software Engineering"]
+    },
+    "GitHub Actions Guide" : {
+      "description" : "Guides / examples of build file components for GHA processes",
+      "link" : "https://github.com/MichaelCurrin/dev-cheatsheets",
+      "image" : "https://skillicons.dev/icons?i=github",
+      "tags" : ["DevOps", "Software Engineering"]
+    }
+  },
+  
+  "Web Development" : {
+    "Total Typescript" : {
+      "description" : "Guides & tutorials for all levels of Typescript programmers",
+      "link" : "https://www.totaltypescript.com/tutorials",
+      "image" : "https://skillicons.dev/icons?i=ts",
+      "tags" : ["Programming", "Typescript", "Software Engineering"]
+    },
+    "TypeScript Cheatsheets" : {
+      "description" : "Range of one page references from the TS team",
+      "link" : "https://www.typescriptlang.org/cheatsheets/",
+      "image" : "https://skillicons.dev/icons?i=ts",
+      "tags" : ["Programming", "Typescript"]
+    },
+    "Hands-on React" : {
+      "description" : "Practical introduction to React using Javascript or Typescript",
+      "link" : "https://handsonreact.com/docs/",
+      "image" : "https://skillicons.dev/icons?i=react",
+      "tags" : ["Programming", "Typescript", "React"]
+    },
+    "Typescript React Cheatsheets" : {
+      "description" : "Cheatsheets for experienced React developers getting started with TypeScript",
+      "link" : "https://react-typescript-cheatsheet.netlify.app",
+      "image" : "https://skillicons.dev/icons?i=react",
+      "tags" : ["Programming", "Typescript", "React"]
+    }
+  },
+
+  "Data, Machine Learning & AI" : {
+    "Perplexity Labs App" : {
+      "description" : "AI chat playground", 
+      "link" : "https://labs.perplexity.ai/", 
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Web App"]
+    },
+    "NextJS AI App" : {
+      "description" : "AI chat app built by the NextJS team",
+      "link" : "https://chat.vercel.ai/",
+      "image" : "https://avatars.githubusercontent.com/u/14985020?s=200&v=4",
+      "tags" : ["AI", "Web App"]
+    },
+    "You AI Search App" : {
+      "description" : "AI search engine",
+      "link" : "https://you.com/",
+      "image" : "https://cdn.you.com/img/shared/logos/ydc-logo.svg",
+      "tags" : ["AI", "Web App"]
+    },
+    "Tensorflow Neural Network Playground" : {
+      "description" : "Interactive visual representation of nerual networks",
+      "link" : "https://playground.tensorflow.org/",
+      "image" : "https://skillicons.dev/icons?i=gcp",
+      "tags" : ["AI", "Machine Learning", "Web App" ]
+    },
+    "Seeing Theory" : {
+      "description" : "Visual education in probability & statistics",
+      "link" : "https://seeing-theory.brown.edu/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Making Friends with Machine Learning" : {
+      "description" : "Extensive series on machine learning from the ground up by Cassie Kozyrkov (Cheif Decision Scientist @ Google).", 
+      "link" : "https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG", 
+      "image" : "https://skillicons.dev/icons?i=gcp",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Intro to Deep Learning" : {
+      "description" : "Introductory course in deep neural netwroks, from MIT",
+      "link" : "http://introtodeeplearning.com/",
+      "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Visual Intro to ML pt.1" : {
+      "description": "",
+      "link" : "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/", 
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Visual Intro to ML pt.2" : {
+      "description": "",
+      "link" : "http://www.r2d3.us/visual-intro-to-machine-learning-part-2/", 
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Make Me An Analyst" : {
+      "description" : "Programming (Python & R) & statistical analytics learning materials",
+      "link" : "https://makemeanalyst.com/",
+      "image" : "https://skillicons.dev/icons?i=regex",
+      "tags" : ["Programming", "Python", "R", "Data Science"]
+    }
+  },
+
+  "Data Engineering" : {
+    "Data Engineering Roadmap" : {
+      "description" : "Roadmap of data engineering careers by Seattle Data Guy", 
+      "link" : "https://drive.google.com/file/d/13U2jrqXGDOIRuM1alAd43aqUT6qieMF0/view", 
+      "image" : "https://skillicons.dev/icons?i=dynamodb",
+      "tags" : ["Data Engineering", "Software Engineering", "Data"]
+    },
+    "Awesome Data Engineering" : {
+      "description" : "Data engineering resources & learning paths for beginner to advanced",
+      "link" : "https://awesomedataengineering.com/",
+      "image" : "https://github.com/snird/awesome-data-engineering-learning/raw/master/site-screenshot.png",
+      "tags" : ["Data Engineering"]
+    },
+    "Awesome DuckDB" : {
+      "description" : "Wide range of resources for learnign & building with DuckDB",
+      "link" : "https://github.com/davidgasquez/awesome-duckdb",
+      "image" : "https://lh3.googleusercontent.com/p/AF1QipMIPfn8rpIDo5MDkIBozWgK4tcuEwI_A5decURn=s680-w680-h510",
+      "tags" : ["Programming", "Data Engineering", "Software Engineering"]
+    },
+    "SQL Bolt" : {
+      "description" : "Learn SQL in the browser",
+      "link" : "https://sqlbolt.com/",
+      "image" : "https://skillicons.dev/icons?i=dynamodb",
+      "tags" : ["Data Engineering", "Programming"]
+    },
+    "PBI Xray" : {
+      "description" : "Python tooling for accessing local PBI data models",
+      "link" : "https://github.com/Hugoberry/pbixray", 
+      "image" : "https://voyagecontrol.com/hs-fs/hubfs/11powerbi.png?width=600&height=600&name=11powerbi.png",
+      "tags" : ["Data Engineering"]
+    }
+  },
+
+  "Data Sources" : {
+    "Public APIs" : {
+      "description" : "Excellent source of public APIs", 
+      "link" : "https://publicapis.dev/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["API", "Open Source", "Data"]
+    },
+    "Deck of Cards" : {
+      "description" : "Open API for generating card decks", 
+      "link" : "https://deckofcardsapi.com/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags": ["Gaming", "API", "Data"]
+    },
+    "Carbon Intensity API" : {
+      "description": "National Grid live & historical carbon intensity and generation mix data", 
+      "link": "https://api.carbonintensity.org.uk/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["Energy", "Data", "API"]
+    },
+    "Climate API" : {
+      "description" : "Wide range of live & modelled climate data API sources", 
+      "link" : "https://open-meteo.com/en/docs/climate-api",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["Energy", "Data", "API", "AI"]
+    },
+    "Kaggle Datasets" : {
+      "description" : "Wide range of datasets, in a range of file formats, useful for AI / ML study",
+      "link" : "https://www.kaggle.com/datasets",
+      "image": "https://skillicons.dev/icons?i=gcp",
+      "tags" : ["AI", "Machine Learning", "Data"]
+    },
+    "HuggingFace Datasets" : {
+      "description" : "Wide range of datasets for AI / ML applications",
+      "link" : "https://www.huggingface.co/datasets",
+      "image": "https://api.time.com/wp-content/uploads/2023/06/time100-companies-Hugging-Face-2023.jpg",
+      "tags" : ["AI", "Machine Learning", "Data"]
+    },
+    "UCI Machine Learning" : {
+      "description" : "Large repository of datasets for various AI / ML project",
+      "link" : "https://archive.ics.uci.edu/",
+      "image" : "https://skillicons.dev/icons?i=dynamodb",
+      "tags" : ["Machine Learning", "AI", "Data"]
+    }
+  }
+}

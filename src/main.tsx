@@ -1,35 +1,45 @@
 // Feeds App
 import "./main.css"
-import logo from "/icons/feeds-128.png"
-
 import React from "react"
 import { createRoot } from "react-dom/client"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router"
 
 import Sidebar from "./components/Sidebar"
-import Render from "./components/Markdown"
-import Home from "./pages/home"
-
+// import Render from "./components/Markdown"
+import Docs from "./components/Docs"
+import TexasHoldEm from "./components/GamesPoker"
+import Blackjack from "./components/GamesBlackjack"
 
 function App() {
-  const pageList = ["base", "hello world", "rust simulator", "rust geospatial"];
+  const pageList = [
+    "home", 
+    "game : blackjack",
+    "game : poker",
+    "developer resources",
+    // "project : pipOS",
+  ];
 
   const Layout = () => {
     return (
-      <div>
-        <div className="app-header">
-          <a onClick={() => window.location.reload()}>
-            <img className="app-logo" src={logo} />
-          </a>
-
-          <h2 className="app-title">{`feeds`}</h2>
-        </div>
+      <>
         <Sidebar title="menu" keys={pageList} />
-        
         <div className="app-content">
           <Outlet />
         </div>
-        
+      </>
+    );
+  };
+
+  const Home = () => {
+    // const [selectGame, setSelectGame] = useState<string>("");
+
+    return(
+      <div className="centered-block">
+        <h3>Hello World...</h3>  
+        <img className="home-img" src="/feeds/images/sunrise.jpg" />
+        <p>
+          Check the menu for games, developer resources, notes, articles etc.
+        </p>
       </div>
     );
   };
@@ -39,19 +49,17 @@ function App() {
       path: '/',
       element: <Layout />,
       children: [
-        {path: '/feeds/', element: <Home />},
-        {path: '/feeds/hello-world', element: <Render path="/feeds/markdown/posts/2024-12-10-hello-world.md" />},
-        {path: '/feeds/rust-simulator', element: <Render path="https://raw.githubusercontent.com/DNYFZR/rs-sim/refs/heads/main/README.md" />},
-        {path: '/feeds/rust-geospatial', element: <Render path="https://raw.githubusercontent.com/DNYFZR/rs-geospatial/refs/heads/main/README.md" />},
-
+        {path: '/feeds', element: <Home />},
+        {path: '/feeds/developer-resources', element: <Docs />},
+        {path: '/feeds/game-poker', element: <TexasHoldEm />},
+        {path: '/feeds/game-blackjack', element: <Blackjack />},
+        // {path: '/feeds/project-pipOS', element: <Render path="/feeds/posts/pipOS.md" />},
       ],
     },
   ]);
 
   return (
-    <div className="app-main">
-      <RouterProvider router={AppRoutes} />
-    </div>
+    <RouterProvider router={AppRoutes} />
   )
 }
 

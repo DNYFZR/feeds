@@ -24,6 +24,7 @@
   width: 400px;
   height: 100vh;
   overflow-y: auto;
+  z-index: 3;
 
   display: flex;
   flex-direction: column;
@@ -51,8 +52,8 @@
   color: var(--main-text-color);
   border-radius: 8px;
   border: none;
-  padding: 1vw;
-  margin: 1vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
 }
 
 .sidebar-button.active {
