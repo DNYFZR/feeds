@@ -17,7 +17,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, keys }) => {
   const navigate = useNavigate();
 
   const handleKeyChange = (newActiveKey: string) => {
-    const newKey = newActiveKey.replaceAll(" ", "-");
+    const newKey = newActiveKey.replaceAll(" : ", "-").replaceAll(" ", "-");
     try {
       setActiveKey(newActiveKey);
 
