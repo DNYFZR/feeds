@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router"
 
 import Sidebar from "./components/Sidebar"
-import Render from "./components/Markdown"
+// import Render from "./components/Markdown"
 import Docs from "./components/Docs"
 import TexasHoldEm from "./components/GamesPoker"
 import Blackjack from "./components/GamesBlackjack"
@@ -16,7 +16,7 @@ function App() {
     "game : blackjack",
     "game : poker",
     "developer resources",
-    "project : pipOS",
+    // "project : pipOS",
   ];
 
   const Layout = () => {
@@ -53,7 +53,7 @@ function App() {
         {path: '/feeds/developer-resources', element: <Docs />},
         {path: '/feeds/game-poker', element: <TexasHoldEm />},
         {path: '/feeds/game-blackjack', element: <Blackjack />},
-        {path: '/feeds/project-pipOS', element: <Render path="/feeds/posts/pipOS.md" />},
+        // {path: '/feeds/project-pipOS', element: <Render path="/feeds/posts/pipOS.md" />},
       ],
     },
   ]);
