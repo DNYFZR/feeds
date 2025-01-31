@@ -1,7 +1,13 @@
 // Application UI Container & Navigation 
 import "./Docs.css"
-import data from "../assets/docs.json"
 import React from "react"
+import swe_db from "../assets/swe.json"
+import data_db from "../assets/data.json"
+import blog_db from "../assets/reading.json"
+import dataset_db from "../assets/resources.json"
+import tools_db from "../assets/tools.json"
+import web_db from "../assets/web.json"
+
 
 interface DatabaseNode {
   [key : string] : {
@@ -18,8 +24,15 @@ interface Database {
 
 const Docs: React.FC = () => {
   // Database setup
-  const database = data as Database;
-  const database_pks = Object.keys(database);
+  const database:Database = {
+    "Software Engineering": swe_db, 
+    "Reading": blog_db, 
+    "Dev Tools": tools_db, 
+    "Web Development": web_db, 
+    "Data, ML & AI": data_db, 
+    "Data Sources": dataset_db,
+  };
+  const database_pks:string[] = Object.keys(database);
 
   // User selection hooks
   const [activeSection, setActiveSection] = React.useState<string>(database_pks[0]);
@@ -31,6 +44,7 @@ const Docs: React.FC = () => {
     setActiveData(database[event.target.value]);
   };
 
+
   return (
     <>
       <div  className="app-header">
@@ -38,7 +52,7 @@ const Docs: React.FC = () => {
           {database_pks.map((k) => <option value={k}>{k}</option>)}
         </select>  
       </div>
-     
+
       <div className="row">
         {Object.keys(activeData).map((key) => (
           
