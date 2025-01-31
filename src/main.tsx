@@ -31,8 +31,6 @@ function App() {
   };
 
   const Home = () => {
-    // const [selectGame, setSelectGame] = useState<string>("");
-
     return(
       <div className="centered-block">
         <h3>Hello World...</h3>  
