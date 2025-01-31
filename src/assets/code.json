@@ -1,0 +1,62 @@
+{
+  "Intro to Rust" : {
+    "description" : "Install, setup & overview of the Rust programming language",
+    "link" : "https://blog.logrocket.com/getting-up-to-speed-with-rust/",
+    "image" : "https://skillicons.dev/icons?i=rust",
+    "tags" : ["Programming", "Rust", "Software Engineering"]
+  },
+  "Comprehensive Rust" : {
+    "description" : "Google engineering intro to Rust",
+    "link" : "https://google.github.io/comprehensive-rust/index.html",
+    "image" : "https://skillicons.dev/icons?i=rust",
+    "tags" : ["Programming", "Rust", "Software Engineering"]
+  },
+  "Rust Config System" : {
+    "description" : "Guide on the configuration (cfg) system in Rust", 
+    "link" : "https://blog.parker-codes.dev/posts/rusts-cfg-attribute",
+    "image" : "https://skillicons.dev/icons?i=rust",
+    "tags" : ["Programming", "Rust", "Software Engineering"]
+  },
+  "Rust File I/O" : {
+    "description" : "Introduction to file I/O in the Rust ecosystem",
+    "link" : "https://dev.to/oliverjumpertz/how-to-write-files-in-rust-m06",
+    "image" : "https://skillicons.dev/icons?i=rust",
+    "tags" : ["Programming", "Rust", "Software Engineering"]
+  },
+  "Awesome Rust" : {
+    "description" : "GitHub repo with links to a very wide range of applications, tools & libraries in the Rust ecosystem",
+    "link" : "https://github.com/rust-unofficial/awesome-rust",
+    "image" : "https://skillicons.dev/icons?i=rust",
+    "tags" : ["Programming", "Rust", "Software Engineering", "GitHub"]
+  },
+  "Teach-RS" : {
+    "description" : "",
+    "link" : "https://github.com/tweedegolf/teach-rs",
+    "image" : "https://skillicons.dev/icons?i=rust",
+    "tags" : ["Programming", "Rust", "Software Engineering"]
+  },
+  "Learning Go" : {
+    "description" : "Intro to Go programming & syntax",
+    "link" : "https://github.com/TannerGabriel/learning-go",
+    "image" : "https://skillicons.dev/icons?i=go",
+    "tags" : ["Programming", "Go", "Software Engineering"]
+  },
+  "Learn Go with Tests" : {
+    "description" : "Beginner friendly intro to Go, including testing & projects",
+    "link" : "https://quii.gitbook.io/learn-go-with-tests",
+    "image" : "https://skillicons.dev/icons?i=go",
+    "tags" : ["Programming", "Go", "Software Engineering"]
+  },
+  "OOP Design Patterns (Python)" : {
+    "description" : "Guide through implementation of common design patterns in Python",
+    "link" : "https://python-patterns.guide/",
+    "image" : "https://skillicons.dev/icons?i=py",
+    "tags" : ["Programming", "Software Engineering", "Python"]
+  },
+  "The Python Tutorials" : {
+    "description" : "OOP, RegEx, adv concepts GUI programming",
+    "link" : "https://www.pythontutorial.net/",
+    "image" : "https://skillicons.dev/icons?i=py",
+    "tags" : ["Programming", "Python", "Software Engineering"]
+  }
+}

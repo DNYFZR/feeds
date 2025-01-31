@@ -1,0 +1,50 @@
+{
+  "Developer Roadmaps" : {
+    "description" : "Roadmaps for developers",
+    "link" : "https://roadmap.sh/",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["Programming", "Software Engineering", "Data Engineering" ]
+  },
+  "The Algorithms" : {
+    "description" : "Implementation of data structures & algorithms in most languages",
+    "link" : "https://github.com/TheAlgorithms",
+    "image" : "https://avatars.githubusercontent.com/u/20487725?s=200&v=4",
+    "tags" : ["Programming", "Software Engineering"]
+  },
+  "The Missing Semester" : {
+    "description" : "MIT course covering elements missed in traditional CS education",
+    "link" : "https://missing.csail.mit.edu/",
+    "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+    "tags" : ["Software Engineering", "Programming", "Documentation", "Version Control"]
+  },
+  "Big O Notation" : {
+    "description" : "Article explaining the concept & impact of big O in development",
+    "link" : "https://web.mit.edu/16.070/www/lecture/big_o.pdf",
+    "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+    "tags" : ["Programming", "Software Engineering"]
+  },
+  "Intro to APIs Part 1" : {
+    "description" : "Introductory guide to REST APIs",
+    "link" : "https://www.skiplevel.co/blog/guide-to-api-part-1",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["API", "Guide", "Backend"]
+  },
+  "Intro to APIs Part 2" : {
+    "description" : "Introductory guide to REST APIs",
+    "link" : "https://www.skiplevel.co/blog/part-2-rest-api-components-how-to-read-them",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["API", "Guide", "Backend"]
+  },
+  "Docker Labs" : {
+    "description" : "Training, guides & cheatsheets for all levels of Docker user",
+    "link" : "https://dockerlabs.collabnix.com/", 
+    "image" : "https://skillicons.dev/icons?i=docker",
+    "tags" : ["DevOps", "Software Engineering"]
+  },
+  "GitHub Actions Guide" : {
+    "description" : "Guides / examples of build file components for GHA processes",
+    "link" : "https://github.com/MichaelCurrin/dev-cheatsheets",
+    "image" : "https://skillicons.dev/icons?i=github",
+    "tags" : ["DevOps", "Software Engineering"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Patterns.dev" : {
+    "description" : "Software architecture design pattern study guide", 
+    "link" : "https://www.patterns.dev/", 
+    "image" : "https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_2800/v1635050505/patterns.dev/Wallpaper_3.jpg",
+    "tags" : ["Programming", "Software Engineering"]
+  },
+  "Total Typescript" : {
+    "description" : "Guides & tutorials for all levels of Typescript programmers",
+    "link" : "https://www.totaltypescript.com/tutorials",
+    "image" : "https://skillicons.dev/icons?i=ts",
+    "tags" : ["Programming", "Typescript", "Software Engineering"]
+  },
+  "TypeScript Cheatsheets" : {
+    "description" : "Range of one page references from the TS team",
+    "link" : "https://www.typescriptlang.org/cheatsheets/",
+    "image" : "https://skillicons.dev/icons?i=ts",
+    "tags" : ["Programming", "Typescript"]
+  },
+  "Hands-on React" : {
+    "description" : "Practical introduction to React using Javascript or Typescript",
+    "link" : "https://handsonreact.com/docs/",
+    "image" : "https://skillicons.dev/icons?i=react",
+    "tags" : ["Programming", "Typescript", "React"]
+  },
+  "Typescript React Cheatsheets" : {
+    "description" : "Cheatsheets for experienced React developers getting started with TypeScript",
+    "link" : "https://react-typescript-cheatsheet.netlify.app",
+    "image" : "https://skillicons.dev/icons?i=react",
+    "tags" : ["Programming", "Typescript", "React"]
+  }
+}

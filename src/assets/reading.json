@@ -1,0 +1,50 @@
+{
+  "Hackertab" : {
+    "description" : "Developer news dashboard",
+    "link" : "https://now.hackertab.dev/",
+    "image" : "https://skillicons.dev/icons?i=emotion",
+    "tags" : ["Software Engineering", "Data Engineering", "Machine Learning", "AI"]
+  },
+  "Azure Mentor" : {
+    "description" : "Detailed blogs covering all things Azure cloud",
+    "link" : "https://azurementor.wordpress.com/",
+    "image" : "https://skillicons.dev/icons?i=azure",
+    "tags" : ["Azure", "Software Engineering", "DevOps", "Data Engineering"]
+  },
+  "Spotify Engineering" : {
+    "description" : "Blog from the engineering team, covering all aspects of build & operation of a global app service", 
+    "link" : "https://engineering.atspotify.com/",
+    "image" : "https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green-300x300.png",
+    "tags" : ["Software Engineering", "DevOps", "Audio"]
+  },
+  "Netflix Engineering" : {
+    "description" : "Tech @ Netflix - data / microservices / software engineering...",
+    "link" : "https://netflixtechblog.com/",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/2048px-Netflix_icon.svg.png",
+    "tags" : ["Software Engineering", "DevOps"]
+  },
+  "Databricks Engineering" : {
+    "description" :"Blog from the engineering team, covering all aspects of data & AI service",
+    "link" : "https://databricks.com/blog/category/engineering",
+    "image" : "https://avatars.githubusercontent.com/u/4998052?s=200&v=4",
+    "tags" : ["Data Engineering", "Machine Learning", "AI"]
+  },
+  "Learning Spark" : {
+    "description" : "Introduction to programming with the Apache Spark framework",
+    "link" : "https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf", 
+    "image" : "https://m.media-amazon.com/images/I/81qxKDZyIgL._AC_UF894,1000_QL80_.jpg",
+    "tags" : ["Data Engineering", "Machine Learning", "Python", "SQL"]
+  },
+  "Rust Atomics & Locks" : {
+    "description" : "Low level concurrent programming in the Rust ecosystem",
+    "link" : "https://marabos.nl/atomics/",
+    "image" : "https://m.media-amazon.com/images/I/81WpA78jtqL._AC_UF894,1000_QL80_.jpg",
+    "tags" : ["Software Engineering"]
+  },
+  "Python for Data Science" : {
+    "description" : "Intro to data science with Python",
+    "link" : "https://jakevdp.github.io/PythonDataScienceHandbook/", 
+    "image" : "https://jakevdp.github.io/PythonDataScienceHandbook/figures/PDSH-cover.png",
+    "tags" : ["Programming", "Python", "Data Engineering"]
+  }
+}
