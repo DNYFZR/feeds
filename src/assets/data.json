@@ -1,0 +1,74 @@
+{
+  "Data Engineering Roadmap" : {
+    "description" : "Roadmap of data engineering careers by Seattle Data Guy", 
+    "link" : "https://drive.google.com/file/d/13U2jrqXGDOIRuM1alAd43aqUT6qieMF0/view", 
+    "image" : "https://skillicons.dev/icons?i=dynamodb",
+    "tags" : ["Data Engineering", "Software Engineering", "Data"]
+  },
+  "Awesome Data Engineering" : {
+    "description" : "Data engineering resources & learning paths for beginner to advanced",
+    "link" : "https://awesomedataengineering.com/",
+    "image" : "https://github.com/snird/awesome-data-engineering-learning/raw/master/site-screenshot.png",
+    "tags" : ["Data Engineering"]
+  },
+  "Awesome DuckDB" : {
+    "description" : "Wide range of resources for learnign & building with DuckDB",
+    "link" : "https://github.com/davidgasquez/awesome-duckdb",
+    "image" : "https://lh3.googleusercontent.com/p/AF1QipMIPfn8rpIDo5MDkIBozWgK4tcuEwI_A5decURn=s680-w680-h510",
+    "tags" : ["Programming", "Data Engineering", "Software Engineering"]
+  },
+  "Tensorflow Neural Network Playground" : {
+    "description" : "Interactive visual representation of nerual networks",
+    "link" : "https://playground.tensorflow.org/",
+    "image" : "https://skillicons.dev/icons?i=gcp",
+    "tags" : ["AI", "Machine Learning", "Web App" ]
+  },
+  "Seeing Theory" : {
+    "description" : "Visual education in probability & statistics",
+    "link" : "https://seeing-theory.brown.edu/",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["AI", "Machine Learning"]
+  },
+  "Making Friends with Machine Learning" : {
+    "description" : "Extensive series on machine learning from the ground up by Cassie Kozyrkov (Cheif Decision Scientist @ Google).", 
+    "link" : "https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG", 
+    "image" : "https://skillicons.dev/icons?i=gcp",
+    "tags" : ["AI", "Machine Learning"]
+  },
+  "Intro to Deep Learning" : {
+    "description" : "Introductory course in deep neural netwroks, from MIT",
+    "link" : "http://introtodeeplearning.com/",
+    "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+    "tags" : ["AI", "Machine Learning"]
+  },
+  "Visual Intro to ML pt.1" : {
+    "description": "",
+    "link" : "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/", 
+    "image" : "https://skillicons.dev/icons?i=ai",
+    "tags" : ["AI", "Machine Learning"]
+  },
+  "Visual Intro to ML pt.2" : {
+    "description": "",
+    "link" : "http://www.r2d3.us/visual-intro-to-machine-learning-part-2/", 
+    "image" : "https://skillicons.dev/icons?i=ai",
+    "tags" : ["AI", "Machine Learning"]
+  },
+  "Make Me An Analyst" : {
+    "description" : "Programming (Python & R) & statistical analytics learning materials",
+    "link" : "https://makemeanalyst.com/",
+    "image" : "https://skillicons.dev/icons?i=regex",
+    "tags" : ["Programming", "Python", "R", "Data Science"]
+  },
+  "SQL Bolt" : {
+    "description" : "Learn SQL in the browser",
+    "link" : "https://sqlbolt.com/",
+    "image" : "https://skillicons.dev/icons?i=dynamodb",
+    "tags" : ["Data Engineering", "Programming"]
+  },
+  "PBI Xray" : {
+    "description" : "Python tooling for accessing local PBI data models",
+    "link" : "https://github.com/Hugoberry/pbixray", 
+    "image" : "https://voyagecontrol.com/hs-fs/hubfs/11powerbi.png?width=600&height=600&name=11powerbi.png",
+    "tags" : ["Data Engineering"]
+  }
+}

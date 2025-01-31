@@ -1,0 +1,32 @@
+{
+  "OneFetch" : {
+    "description" : "Offline command line tool for displaying project information and code statistics for a local Git repo in the terminal",
+    "link" : "https://github.com/o2sh/onefetch",
+    "image" : "https://github.com/o2sh/onefetch/blob/main/assets/screenshot-1.png?raw=true",
+    "tags" : ["Software Engineering", "Version Control"]
+  },
+  "Carbon Code" : {
+    "description" : "Generate high quality images of code in any language for documentation etc.",
+    "link" : "https://carbon.now.sh/",
+    "image" : "https://avatars.githubusercontent.com/u/52179379?s=200&v=4",
+    "tags" : ["Software Engineering"]
+  },
+  "Perplexity Labs App" : {
+    "description" : "AI chat playground", 
+    "link" : "https://labs.perplexity.ai/", 
+    "image" : "https://skillicons.dev/icons?i=ai",
+    "tags" : ["AI", "Web App"]
+  },
+  "NextJS AI App" : {
+    "description" : "AI chat app built by the NextJS team",
+    "link" : "https://chat.vercel.ai/",
+    "image" : "https://avatars.githubusercontent.com/u/14985020?s=200&v=4",
+    "tags" : ["AI", "Web App"]
+  },
+  "You AI Search App" : {
+    "description" : "AI search engine",
+    "link" : "https://you.com/",
+    "image" : "https://cdn.you.com/img/shared/logos/ydc-logo.svg",
+    "tags" : ["AI", "Web App"]
+  }
+}

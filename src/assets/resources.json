@@ -1,0 +1,44 @@
+{
+  "Public APIs" : {
+    "description" : "Excellent source of public APIs", 
+    "link" : "https://publicapis.dev/",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["API", "Open Source", "Data"]
+  },
+  "Deck of Cards" : {
+    "description" : "Open API for generating card decks", 
+    "link" : "https://deckofcardsapi.com/",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags": ["Gaming", "API", "Data"]
+  },
+  "Carbon Intensity API" : {
+    "description": "National Grid live & historical carbon intensity and generation mix data", 
+    "link": "https://api.carbonintensity.org.uk/",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["Energy", "Data", "API"]
+  },
+  "Climate API" : {
+    "description" : "Wide range of live & modelled climate data API sources", 
+    "link" : "https://open-meteo.com/en/docs/climate-api",
+    "image" : "https://skillicons.dev/icons?i=htmx",
+    "tags" : ["Energy", "Data", "API", "AI"]
+  },
+  "Kaggle Datasets" : {
+    "description" : "Wide range of datasets, in a range of file formats, useful for AI / ML study",
+    "link" : "https://www.kaggle.com/datasets",
+    "image": "https://skillicons.dev/icons?i=gcp",
+    "tags" : ["AI", "Machine Learning", "Data"]
+  },
+  "HuggingFace Datasets" : {
+    "description" : "Wide range of datasets for AI / ML applications",
+    "link" : "https://www.huggingface.co/datasets",
+    "image": "https://api.time.com/wp-content/uploads/2023/06/time100-companies-Hugging-Face-2023.jpg",
+    "tags" : ["AI", "Machine Learning", "Data"]
+  },
+  "UCI Machine Learning" : {
+    "description" : "Large repository of datasets for various AI / ML project",
+    "link" : "https://archive.ics.uci.edu/",
+    "image" : "https://skillicons.dev/icons?i=dynamodb",
+    "tags" : ["Machine Learning", "AI", "Data"]
+  }
+}
