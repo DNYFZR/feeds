@@ -8,10 +8,9 @@ Work in progress...
 
 - render component can handle local or web hosted markdown files
 
-- contains mini-games
-
-  - blackjack
-
-  - texas holdem
-  
 - contains developer resources section
+
+
+
+
+
