@@ -1,4 +1,4 @@
-<h3 align="center">Building a Fallout Pip Boy App with React</h3>
+<h3 align="center">DRAFT : Building a Fallout Pip Boy App with React</h3>
 
 December 2024
 
