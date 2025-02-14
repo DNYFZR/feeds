@@ -2,6 +2,7 @@
 import "./Docs.css"
 import React from "react"
 import swe_db from "../assets/swe.json"
+import code_db from "../assets/code.json"
 import data_db from "../assets/data.json"
 import blog_db from "../assets/reading.json"
 import dataset_db from "../assets/resources.json"
@@ -26,6 +27,7 @@ const Docs: React.FC = () => {
   // Database setup
   const database:Database = {
     "Software Engineering": swe_db, 
+    "Programming": code_db,
     "Reading": blog_db, 
     "Dev Tools": tools_db, 
     "Web Development": web_db, 
